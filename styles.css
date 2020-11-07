@@ -1,0 +1,51 @@
+body {
+  margin: 0px;
+}
+
+.btn {
+  padding: 10px;
+  border-bottom: 1px solid black;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: lightskyblue;
+}
+
+section {
+  display: flex;
+}
+
+.display {
+  width: 50vw;
+  height: 30vh;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.scissors {
+  background-image: url("https://www.homestratosphere.com/wp-content/uploads/2019/05/A-pair-of-tailoring-scissors-3-31-5.jpg");
+  background-repeat: no-repeat;
+  background-size: 30%;
+  background-position: center;
+}
+
+.rock {
+  background-image: url("https://www.flashopal.com/images/D/natural-opals-stones-australia-unset-24.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+
+.paper {
+  background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b3ca2868-5ad7-4b74-a919-591567f79890/d26tjj5-b9b4575d-c1e4-4721-bb32-c9fae90805d1.jpg/v1/fill/w_800,h_1052,q_75,strp/wrinkled_copy_paper_hi_res_by_manarangi.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl0sIm9iaiI6W1t7InBhdGgiOiIvZi9iM2NhMjg2OC01YWQ3LTRiNzQtYTkxOS01OTE1NjdmNzk4OTAvZDI2dGpqNS1iOWI0NTc1ZC1jMWU0LTQ3MjEtYmIzMi1jOWZhZTkwODA1ZDEuanBnIiwid2lkdGgiOiI8PTgwMCIsImhlaWdodCI6Ijw9MTA1MiJ9XV19.8hswrTScTAjpaZxqtGZuJt0x-gYBZp9-YUiKQSN3zbM");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+
+#score {
+  color: blue;
+  font-size: 21px;
+  padding: 10px;
+}
